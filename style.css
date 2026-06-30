@@ -1,0 +1,60 @@
+body {
+background: radial-gradient(circle, #282828, black);
+height: 100%;
+font-family: Sans-Serif;
+}
+h1 {
+text-align: center;
+color: lightgray;
+}
+#pfp {
+display: flex;
+justify-content: center;
+margin: auto;
+width: 210px;
+height: 210px;
+margin-top: 50px;
+margin-bottom: 50px;
+object-fit: cover;
+border-radius: 50%;
+}
+a {
+display: block;
+text-decoration: none;
+color: lightgray;
+font-family: Arial;
+}
+button {
+display: block;
+margin: 20px auto;
+height: 70px;
+width: 330px;
+background-color: black;
+border-color: gray;
+border-radius: 40px;
+border-style: solid;
+border-width: 5px;
+font: bold 22px Arial;
+text-indent: 30px;
+}
+.dot {
+height: 25px;
+width: 25px;
+position: relative;
+top: 5px;
+right: 80px;
+}
+.dtt {
+height: 25px;
+width: 25px;
+position: relative;
+top: 5px;
+right: 70px;
+}
+.ddt {
+height: 25px;
+width: 25px;
+position: relative;
+top: 5px;
+right: 64px;
+}
